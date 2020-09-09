@@ -107,24 +107,19 @@ let radarChart = new Chart(ctx3, {
 let donutChart = new Chart(ctx4, {
     type: 'doughnut',
     data: {
-        labels: ["red", "orange", "yellow"],
+        labels: ["red", "orange", "yellow", "green", "blue"],
         datasets: [
             {
                 label: "Favorite Color",
-                lineTension: 0,
-                backgroundColor: "rgba(50,45,100,0.5)",
-                data: [50, 25, 25]
+                backgroundColor: ["#fc5c65", "#fd9644","#fed330", "#2bcbba", "#45aaf2" ],
+                data: [20, 25, 25, 56, 78]
             }
         ]
     },
     options: {
-        showLines: true,
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-            }]
+        title: {
+            display: true,
+            text: 'Classes Favorite Colors'
         }
     }
 });
