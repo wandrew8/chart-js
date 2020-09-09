@@ -1,1 +1,2 @@
-# chart-js
+# Chart.js
+A simple exercise in using Chart.js. I built four simple charts including a line chart, bar chart, radar chart, and doughnut pie chart. Right now I'm just using static data, but I hope to soon incorporate what I have learned here into a react application or an application with dynamically created data. Overall Chart.js is easy to use and requires very minimal setup to get beautiful, responsive charts.
